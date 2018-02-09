@@ -4,9 +4,9 @@
   "description": "This is a test directory to learn Git and Note",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/mariakudryavtseva/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "lodash": "^4.17.5",
+    "webpack": "^3.10.0"
   }
 }
